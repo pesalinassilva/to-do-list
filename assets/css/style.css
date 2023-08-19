@@ -1,0 +1,64 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-top: 20px;
+    height: 100vh;
+}
+
+.interfaz{
+    width: 600px;
+    border: solid 2px;
+    background-color: rgb(234, 224, 224);
+}
+
+.resumen, .subtitulo, .titulo{
+    margin-left: 10px;
+}
+
+hr{
+    width: 95%;
+}
+
+.subtitulo{
+    margin-bottom: 5px;
+}
+
+.agregar{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 10px;
+    margin: 10px;
+    margin-top: 0px;
+}
+
+#tareaNueva{
+    height: 30px;
+}
+
+#btnAgregar{
+    background-color: rgb(4, 115, 4);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+}
+
+
+.todo{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+table{
+    border-spacing: 10px;
+}
+
+th, td{
+    text-align: start;
+}
